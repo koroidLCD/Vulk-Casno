@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC9VylbdGP4RPJ81N478KQEqh3wOZQoRAY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>496320600286</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vulkgms.Vulk-Casno</string>
+	<key>PROJECT_ID</key>
+	<string>vulk-casno</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vulk-casno.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:496320600286:ios:6e1a5add0b76b083be8a4f</string>
+</dict>
+</plist>

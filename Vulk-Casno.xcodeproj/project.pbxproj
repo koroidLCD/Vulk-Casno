@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049B52972B4AC44D0011CF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52962B4AC44D0011CF2A /* AppDelegate.swift */; };
+		049B52A22B4AC44D0011CF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049B52A02B4AC44D0011CF2A /* Main.storyboard */; };
+		049B52A42B4AC44E0011CF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049B52A32B4AC44E0011CF2A /* Assets.xcassets */; };
+		049B52A72B4AC44E0011CF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049B52A52B4AC44E0011CF2A /* LaunchScreen.storyboard */; };
+		049B52AE2B4AC5390011CF2A /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52AD2B4AC5390011CF2A /* LoadingViewController.swift */; };
+		049B52B02B4AC5460011CF2A /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52AF2B4AC5460011CF2A /* MenuVC.swift */; };
+		049B52B22B4AC5550011CF2A /* BonusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52B12B4AC5550011CF2A /* BonusVC.swift */; };
+		049B52B42B4AC5610011CF2A /* RewardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52B32B4AC5610011CF2A /* RewardsVC.swift */; };
+		049B52C02B4AC5F90011CF2A /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52B92B4AC5F90011CF2A /* MainGameViewController.swift */; };
+		049B52C32B4AC5F90011CF2A /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52BC2B4AC5F90011CF2A /* Managers.swift */; };
+		049B52C42B4AC5F90011CF2A /* RewardsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52BD2B4AC5F90011CF2A /* RewardsManager.swift */; };
+		049B52C52B4AC5F90011CF2A /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B52BE2B4AC5F90011CF2A /* CustomStepper.swift */; };
+		049B52C92B4D76400011CF2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049B52C82B4D76400011CF2A /* GoogleService-Info.plist */; };
+		049B52CB2B4D8CB60011CF2A /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 049B52CA2B4D8CB60011CF2A /* codemagic.yaml */; };
+		FF7248CC038CF603AAC20541 /* Pods_Vulk_Casno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81F2650D2E6901873F0C9B4 /* Pods_Vulk_Casno.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049B52932B4AC44D0011CF2A /* Vulk-Casno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vulk-Casno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049B52962B4AC44D0011CF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049B52A12B4AC44D0011CF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049B52A32B4AC44E0011CF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049B52A62B4AC44E0011CF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049B52AD2B4AC5390011CF2A /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		049B52AF2B4AC5460011CF2A /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		049B52B12B4AC5550011CF2A /* BonusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusVC.swift; sourceTree = "<group>"; };
+		049B52B32B4AC5610011CF2A /* RewardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsVC.swift; sourceTree = "<group>"; };
+		049B52B52B4AC5760011CF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049B52B92B4AC5F90011CF2A /* MainGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		049B52BC2B4AC5F90011CF2A /* Managers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managers.swift; sourceTree = "<group>"; };
+		049B52BD2B4AC5F90011CF2A /* RewardsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsManager.swift; sourceTree = "<group>"; };
+		049B52BE2B4AC5F90011CF2A /* CustomStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		049B52C72B4D6FD60011CF2A /* Vulk-Casno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vulk-Casno.entitlements"; sourceTree = "<group>"; };
+		049B52C82B4D76400011CF2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049B52CA2B4D8CB60011CF2A /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		CB1AFD76518FA2BCC0B3FF47 /* Pods-Vulk-Casno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulk-Casno.release.xcconfig"; path = "Target Support Files/Pods-Vulk-Casno/Pods-Vulk-Casno.release.xcconfig"; sourceTree = "<group>"; };
+		D4B3C90DB4906FDD6C087468 /* Pods-Vulk-Casno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulk-Casno.debug.xcconfig"; path = "Target Support Files/Pods-Vulk-Casno/Pods-Vulk-Casno.debug.xcconfig"; sourceTree = "<group>"; };
+		E81F2650D2E6901873F0C9B4 /* Pods_Vulk_Casno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vulk_Casno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049B52902B4AC44D0011CF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7248CC038CF603AAC20541 /* Pods_Vulk_Casno.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049B528A2B4AC44D0011CF2A = {
+			isa = PBXGroup;
+			children = (
+				049B52CA2B4D8CB60011CF2A /* codemagic.yaml */,
+				049B52952B4AC44D0011CF2A /* Vulk-Casno */,
+				049B52942B4AC44D0011CF2A /* Products */,
+				32A3181457E1C7B027E5C2DC /* Pods */,
+				5DD479DB4968EC6C9FAE6FC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049B52942B4AC44D0011CF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049B52932B4AC44D0011CF2A /* Vulk-Casno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049B52952B4AC44D0011CF2A /* Vulk-Casno */ = {
+			isa = PBXGroup;
+			children = (
+				049B52C72B4D6FD60011CF2A /* Vulk-Casno.entitlements */,
+				049B52BE2B4AC5F90011CF2A /* CustomStepper.swift */,
+				049B52B92B4AC5F90011CF2A /* MainGameViewController.swift */,
+				049B52BC2B4AC5F90011CF2A /* Managers.swift */,
+				049B52C82B4D76400011CF2A /* GoogleService-Info.plist */,
+				049B52BD2B4AC5F90011CF2A /* RewardsManager.swift */,
+				049B52962B4AC44D0011CF2A /* AppDelegate.swift */,
+				049B52A02B4AC44D0011CF2A /* Main.storyboard */,
+				049B52A32B4AC44E0011CF2A /* Assets.xcassets */,
+				049B52A52B4AC44E0011CF2A /* LaunchScreen.storyboard */,
+				049B52AD2B4AC5390011CF2A /* LoadingViewController.swift */,
+				049B52AF2B4AC5460011CF2A /* MenuVC.swift */,
+				049B52B12B4AC5550011CF2A /* BonusVC.swift */,
+				049B52B32B4AC5610011CF2A /* RewardsVC.swift */,
+				049B52B52B4AC5760011CF2A /* Info.plist */,
+			);
+			path = "Vulk-Casno";
+			sourceTree = "<group>";
+		};
+		32A3181457E1C7B027E5C2DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3C90DB4906FDD6C087468 /* Pods-Vulk-Casno.debug.xcconfig */,
+				CB1AFD76518FA2BCC0B3FF47 /* Pods-Vulk-Casno.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DD479DB4968EC6C9FAE6FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81F2650D2E6901873F0C9B4 /* Pods_Vulk_Casno.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049B52922B4AC44D0011CF2A /* Vulk-Casno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049B52AA2B4AC44E0011CF2A /* Build configuration list for PBXNativeTarget "Vulk-Casno" */;
+			buildPhases = (
+				7A70EB258CC3A92F19CD6DAF /* [CP] Check Pods Manifest.lock */,
+				049B528F2B4AC44D0011CF2A /* Sources */,
+				049B52902B4AC44D0011CF2A /* Frameworks */,
+				049B52912B4AC44D0011CF2A /* Resources */,
+				466EC6C0FF6C44F9AF57765B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vulk-Casno";
+			productName = "Vulk-Casno";
+			productReference = 049B52932B4AC44D0011CF2A /* Vulk-Casno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049B528B2B4AC44D0011CF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					049B52922B4AC44D0011CF2A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 049B528E2B4AC44D0011CF2A /* Build configuration list for PBXProject "Vulk-Casno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049B528A2B4AC44D0011CF2A;
+			productRefGroup = 049B52942B4AC44D0011CF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049B52922B4AC44D0011CF2A /* Vulk-Casno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049B52912B4AC44D0011CF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049B52CB2B4D8CB60011CF2A /* codemagic.yaml in Resources */,
+				049B52A22B4AC44D0011CF2A /* Main.storyboard in Resources */,
+				049B52A42B4AC44E0011CF2A /* Assets.xcassets in Resources */,
+				049B52A72B4AC44E0011CF2A /* LaunchScreen.storyboard in Resources */,
+				049B52C92B4D76400011CF2A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466EC6C0FF6C44F9AF57765B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulk-Casno/Pods-Vulk-Casno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulk-Casno/Pods-Vulk-Casno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vulk-Casno/Pods-Vulk-Casno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A70EB258CC3A92F19CD6DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vulk-Casno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049B528F2B4AC44D0011CF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049B52C42B4AC5F90011CF2A /* RewardsManager.swift in Sources */,
+				049B52C32B4AC5F90011CF2A /* Managers.swift in Sources */,
+				049B52B22B4AC5550011CF2A /* BonusVC.swift in Sources */,
+				049B52972B4AC44D0011CF2A /* AppDelegate.swift in Sources */,
+				049B52AE2B4AC5390011CF2A /* LoadingViewController.swift in Sources */,
+				049B52C02B4AC5F90011CF2A /* MainGameViewController.swift in Sources */,
+				049B52C52B4AC5F90011CF2A /* CustomStepper.swift in Sources */,
+				049B52B02B4AC5460011CF2A /* MenuVC.swift in Sources */,
+				049B52B42B4AC5610011CF2A /* RewardsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049B52A02B4AC44D0011CF2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049B52A12B4AC44D0011CF2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049B52A52B4AC44E0011CF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049B52A62B4AC44E0011CF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049B52A82B4AC44E0011CF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049B52A92B4AC44E0011CF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049B52AB2B4AC44E0011CF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B3C90DB4906FDD6C087468 /* Pods-Vulk-Casno.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vulk-Casno/Vulk-Casno.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Vulk-Casno/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vulk-Casno";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vulkgms.Vulk-Casno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = vulkpp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		049B52AC2B4AC44E0011CF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1AFD76518FA2BCC0B3FF47 /* Pods-Vulk-Casno.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vulk-Casno/Vulk-Casno.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Vulk-Casno/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vulk-Casno";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vulkgms.Vulk-Casno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = vulkpp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049B528E2B4AC44D0011CF2A /* Build configuration list for PBXProject "Vulk-Casno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049B52A82B4AC44E0011CF2A /* Debug */,
+				049B52A92B4AC44E0011CF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049B52AA2B4AC44E0011CF2A /* Build configuration list for PBXNativeTarget "Vulk-Casno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049B52AB2B4AC44E0011CF2A /* Debug */,
+				049B52AC2B4AC44E0011CF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049B528B2B4AC44D0011CF2A /* Project object */;
+}
